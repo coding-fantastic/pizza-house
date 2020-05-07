@@ -73,9 +73,9 @@
                     <p>  Pizza List</p>
                 </div>
 
-                @for($i = 0 ;$i <5 ; $i++)
+                <!-- @for($i = 0 ;$i <5 ; $i++)
                   <p>The value of i is {{ $i }}</p>
-                @endfor
+                @endfor -->
 
                 @for($i =0 ; $i < count($pizzas); $i++)
                   <p>{{$pizzas[$i]['type']}}</p>
