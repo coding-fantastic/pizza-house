@@ -12,7 +12,7 @@
             <p>  Pizza List</p>
         </div>
 
-        <p>{{$name}} age-> {{$age}}</p>
+        
 
         <!-- @for($i = 0 ;$i <5 ; $i++)
           <p>The value of i is {{ $i }}</p>
