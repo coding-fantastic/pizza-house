@@ -1,3 +1,4 @@
+<!-- call external files using extends -->
 @extends('layouts.layout')
 
 @section('content')
@@ -17,21 +18,13 @@
     @endif
 
     <div class="content">
+      <img src="/img/pizzahouse.png" alt="pizzahouse image" style="height: 250px;">
         <div class="title m-b-md">
             <p>Pizza House</p>
             <p>Kenya's Best Pizza</p>
         </div>
 
-        <div class="links">
-            <a href="https://laravel.com/docs">Docs</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://blog.laravel.com">Blog</a>
-            <a href="https://nova.laravel.com">Nova</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://vapor.laravel.com">Vapor</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
-        </div>
+        
     </div>
 </div>
 @endsection('content')
